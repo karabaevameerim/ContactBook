@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <title>ContactBook</title>
+  </head>
+  <body>
+    <!-- !nav -->
+    <nav>
+      <ol class="nav">
+        <img src="./image/phone.png" alt="phone" />
+        <li>Contact Book</li>
+      </ol>
+    </nav>
+    <!--! form  -->
+    <form class="addContact">
+      <input class="img" placeholder="imageURL" type="text" />
+      <input class="name" placeholder="Name" type="text" />
+      <input class="mail" placeholder="@mail" type="text" />
+      <input class="number" placeholder="number" type="text" />
+      <button>+Add Contact</button>
+    </form>
+    <!-- !list -->
+    <ul id="list"></ul>
+    <!-- !modal -->
+    <div class="modal">
+      <div class="modal-text">
+        <h2>Enter your text</h2>
+        <button class="close">x</button>
+      </div>
+      <div class="modal-inp">
+        <input id="img" placeholder="imageURL" type="text" />
+        <input id="name" placeholder="Name" type="text" />
+        <input id="mail" placeholder="@mail" type="text" />
+        <input id="number" placeholder="number" type="text" />
+        <button id="btn1" class="btn">save</button>
+        <button id="btn2" class="btn">close</button>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

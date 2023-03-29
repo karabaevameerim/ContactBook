@@ -1,0 +1,115 @@
+
+.nav{ 
+    width: 100wv;
+display: flex; 
+ background-color: beige;
+ 
+}
+.nav li{
+    margin-top: 5px;
+    list-style-type: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+.nav img{
+    width: 40px;
+    height: 40px;
+}
+.addContact{
+    display: flex;
+   justify-content: center;
+}
+.addContact input{
+    margin-left: 10px;
+    width: 200px;
+}
+form{
+  margin-bottom: 70px;
+}
+ input::placeholder {
+    padding-left: 10px;
+}
+.addContact button {
+    margin-left: 10px;
+   width: 120px;
+   height: 30px;
+   background-color: lightgreen;
+   border: none;
+};
+
+ul{
+    height: 100vh;
+    background-color: rgb(114, 28, 194);
+    border: 1px solid black;  
+  
+}
+li{
+  width: 700px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    padding-left: 20px;
+  
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 32%;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.354);
+    background-color: rgba(236, 183, 236, 0.466);
+  }
+  .modal-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal-text h2 {
+    margin-left: 100px;
+    text-align: center;
+    
+  }
+  .modal-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: grey;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(236, 183, 236, 0.354) ;
+  }
+
+  .modal-inp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    
+  }
+  .modal-inp input{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  .btn{
+    /* flex-direction: row; */
+    align-self: flex-end;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(135, 206, 250, 0.648);
+  }
+ 
+  .btn:hover{
+    cursor: pointer;
+    background-color: rgba(163, 91, 230, 0.712);
+  }
